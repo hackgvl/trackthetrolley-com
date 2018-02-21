@@ -9,87 +9,117 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <meta name="apple-itunes-app" content="app-id=1039575794" />
+  <meta name="google-play-app" content="app-id=com.codeforgvl.trolleytrackerclient">
+
+  <!-- Start SmartBanner configuration -->
+  <meta name="smartbanner:title" content="Greenville Trolley Tracker">
+  <meta name="smartbanner:author" content="ajhodges">
+  <meta name="smartbanner:price" content="FREE">
+  <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+  <meta name="smartbanner:icon-google" content="img/Icon@2x.png">
+  <meta name="smartbanner:button" content="VIEW">
+  <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.codeforgvl.trolleytrackerclient">
+  <meta name="smartbanner:enabled-platforms" content="android">
+  <meta name="smartbanner:disable-positioning" content="true">
+  <!-- End SmartBanner configuration -->
+
   <title>Trolley Tracker - Trolley Location Tracking Application in Greenville, SC For iPhone, Android and Web App </title>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/ie.css" />
+  <link rel="stylesheet" href="css/smartbanner.min.css" />
   <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:600' rel='stylesheet' type='text/css'>
+  <script src="js/smartbanner.min.js" type="text/javascript" charset="utf-8"></script>
 
   <script src="js/vendor/custom.modernizr.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
-	<script type="text/javascript" src="js/trolleytracker-marketing.js"></script>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 <div id="top"  data-magellan-expedition="fixed">
-	<div class="row">
-		<div class="large-12 columns">
-			<nav class="top-bar">
-			  <ul class="title-area">
-			   <li class="name logo">
-			      <a href="#"><img src="img/TROLLEYTRACKER_logo@1x.png" alt="Trolley Tracker - Greenville SC Trolley Tracking App"></a>
-			    </li>
-			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-			  </ul>
-			
-			  <section class="top-bar-section">
-			    <ul class="right" id="menu">
-			      <li data-magellan-arrival="gettheapp"><a href="https://play.google.com/store/apps/details?id=com.codeforgvl.trolleytrackerclient">Android</a></li>
-			      <li data-magellan-arrival="gettheapp"><a href="https://itunes.apple.com/us/app/trolley-tracker-greenville/id1039575794">iOS</a></li>
-			    </ul>
-			  </section>
-			</nav>
-		</div>
-	</div>
+  <div class="row">
+    <div class="large-12 columns">
+      <nav class="top-bar">
+        <ul class="title-area">
+         <li class="name logo">
+            <a href="#"><img src="img/TROLLEYTRACKER_logo@1x.png" alt="Trolley Tracker - Greenville SC Trolley Tracking App"></a>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+      
+        <section class="top-bar-section">
+          <ul class="right" id="menu">
+            <li data-magellan-arrival="gettheapp"><a href="https://play.google.com/store/apps/details?id=com.codeforgvl.trolleytrackerclient">Android</a></li>
+            <li data-magellan-arrival="gettheapp"><a href="https://itunes.apple.com/us/app/trolley-tracker-greenville/id1039575794">iOS</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </div>
 </div>
 
 <section class="map">
-	    <div>
-	    <iframe src="http://linktheorigi.webfactional.com/trolley/" class="shrink" width="100%" seamless></iframe>
-	</div>
+      <div>
+      <iframe src="http://linktheorigi.webfactional.com/trolley/" class="shrink" width="100%" seamless></iframe>
+  </div>
 </section>
 
 <section class="main">
-	    <div class="row">
-		<div class="large-5 columns">
-			<img id="mobile-example" class="no-mobile" src="img/mobile-example.png" alt="Greenville Trolley Tracker Application" />
-		</div>
-		<div class="large-7 columns">
-				<h2>Greenville Trolley Tracker App</h2>
-				<h5>Track the Free Downtown Greenville, SC Trolley using the Web, iOS or Android Mobile Apps available. If the map above is blank, that means that the trolley is not currently running or we are experiencing tracking issues. This project is under active development by the all-volunteer team at <a href="http://codeforgreenville.org/">Code for Greenville</a></h5>
-			<div id="download" class="row" style="display:inline-block; padding-bottom:25px;">
-				<a href="https://play.google.com/store/apps/details?id=com.codeforgvl.trolleytrackerclient"><img class="android" src="img/android.png" alt="Download for Android" /></a>
-				<a href="https://itunes.apple.com/us/app/trolley-tracker-greenville/id1039575794"><img class="ios" src="img/ios.png" alt="Download iOS for iPhone or iPad" /></a>
-			</div>
-		</div>
-	</div>
+      <div class="row">
+    <div class="large-5 columns">
+      <img id="mobile-example" class="no-mobile" src="img/mobile-example.png" alt="Greenville Trolley Tracker Application" />
+    </div>
+    <div class="large-7 columns">
+        <h2>Greenville Trolley Tracker App</h2>
+        <h5>Track the Free Downtown Greenville, SC Trolley using the Web, iOS or Android Mobile Apps available. If the map above is blank, that means that the trolley is not currently running or we are experiencing tracking issues. This project is under active development by the all-volunteer team at <a href="http://codeforgreenville.org/">Code for Greenville</a></h5>
+      <div id="download" class="row" style="display:inline-block; padding-bottom:25px;">
+        <a href="https://play.google.com/store/apps/details?id=com.codeforgvl.trolleytrackerclient"><img class="android" src="img/android.png" alt="Download for Android" /></a>
+        <a href="https://itunes.apple.com/us/app/trolley-tracker-greenville/id1039575794"><img class="ios" src="img/ios.png" alt="Download iOS for iPhone or iPad" /></a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <footer>
-	<div class="row">
-		<div class="large-6 columns">
-			<ul class="inline-list">
-			  <li class="copyright">2015 &copy; Code for Greenville</li>
-			 
-  			</ul>
-		</div>
-		<div class="large-6 columns">
-		<!--- No Social until it is setup 
-			<ul class="inline-list social-media right">
-				<li><a href="http://www.facebook.com/EGrappler" class="icon icon-facebook"></a></li>
-				<li><a href="htp://twitter.com/egrappler" class="icon icon-twitter"></a></li>
-				<li><a href="https://plus.google.com/102572598506883739879/posts" class="icon icon-googleplus"></a></li>
-			</ul>
-		-->
-		</div>
-	</div>
-</footer>			
-			
+  <div class="row">
+    <div class="large-6 columns">
+      <ul class="inline-list">
+        <li class="copyright">&copy; 2017 Code for Greenville</li>
+       
+        </ul>
+    </div>
+    <div class="large-6 columns">
+    <!--- No Social until it is setup 
+      <ul class="inline-list social-media right">
+        <li><a href="http://www.facebook.com/EGrappler" class="icon icon-facebook"></a></li>
+        <li><a href="htp://twitter.com/egrappler" class="icon icon-twitter"></a></li>
+        <li><a href="https://plus.google.com/102572598506883739879/posts" class="icon icon-googleplus"></a></li>
+      </ul>
+    -->
+    </div>
+  </div>
+</footer>     
+      
   <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
   <script type="text/javascript" src="js/foundation.min.js"></script>
   <script type="text/javascript" src="js/functions.js"></script>
+  <script src="js/jquery.localscroll-1.2.7.js" type="text/javascript"></script>
+  <script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/flexslider.css"> <!-- Flex slider -->
+  <script src="js/jquery.flexslider.js" type="text/javascript"></script><!-- Flex slider -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WR7FPV"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WR7FPV');</script>
+  <!-- End Google Tag Manager -->
 
 </body>
 </html>
